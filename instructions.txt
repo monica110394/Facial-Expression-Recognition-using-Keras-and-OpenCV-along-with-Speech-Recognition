@@ -1,0 +1,17 @@
+Instructions to run the project locally:
+
+1) Download the Project folder
+
+2) In Anaconda Navigator, create a virtual environment for project
+
+3) In that environment install the libraries Keras, Tensorflow, Flask, Opencv
+
+4) Open anaconda prompt and activate the environment after which cd to the project directory
+	conda activate myenv
+
+5) execute the following the commands sequentially
+	pip install pipenv
+	pipenv install
+	python main.py
+
+6) The project should run on 127.0.0.1:5000
